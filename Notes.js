@@ -10,19 +10,18 @@ userName = "Motion";
 
 console.log("After", userName);
 
-//2. Object;
+//2. Objects;
 let person = {
   userName: "Mulweli",
   age: 26,
   isSmart: true,
   surname: "Mushiana",
-
   mother: {
     name: "Shonisani",
     age: 60,
   },
 };
-console.log();
+console.log(person.surname);
 
 //3. Array;
 let myFavourateColours = ["red", "green", "pink", "black"];
